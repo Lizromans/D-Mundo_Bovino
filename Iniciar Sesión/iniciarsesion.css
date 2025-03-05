@@ -3,9 +3,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
 body{
     background-color: #f8dfb3;
 }
+
 .bienvenida{
     height: 100vh;
     width: 100vw;
@@ -16,7 +18,15 @@ body{
 header{
     background: rgb(211,177,119);
     background: linear-gradient(90deg, rgba(211,177,119,1) 25%, rgba(109,92,62,1) 100%);
-    
+    height: 100px;
+}
+
+#logo1{
+    height: 130px; /* Ajusta la altura según necesites */
+    margin-left: 20px; /* Espaciado desde el borde izquierdo */
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0.6, 0.6);
+    margin-top: 7px;
 }
 
 main{
@@ -26,7 +36,7 @@ main{
 .mensaje{
     background-color: #D3B177;
     box-shadow: 0 4px 6px rgba(0, 0, 0.3, 0.3);
-    height: 310px;
+    min-height: auto;
     margin: 75px;
     display: flex;
     width: 500px;
@@ -34,7 +44,7 @@ main{
     align-items: center;
     justify-content: space-between;
     position: relative;
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
 h1{
@@ -45,7 +55,7 @@ h1{
     display: flex;
     position: absolute;
     transform: translate(0%, 0%);
-    top: 20px;
+    top: 50px;
     left: 20px;
     right: 20px;
     justify-content: center;
@@ -72,7 +82,7 @@ h1{
     margin-left: 155px;
 }
 
-#registro:hover{
+#inicio:hover{
     background-color: #D3B17743;
     color: #000000;
 }
@@ -90,7 +100,7 @@ h1{
     margin-left: 155px;
 }
 
-#inicio:hover{
+#registro:hover{
     background-color: #947643;
     color: #ffffff;
 }
@@ -98,22 +108,18 @@ h1{
 .formulario{
     background-color: #D3B177;
     box-shadow: 0 4px 6px rgba(0, 0, 0.3, 0.3);
-    height: 255px;
-    max-width: 900px;
+    height: 325px;
     border-radius: 30px;
-    position: relative;
-    margin-left: 250px;
+    margin-left: 380px;
     min-width: 400px;
-    padding-left: 60px;
 }
 
 #datos{
-    margin-top: 45px;
+    margin-top: 75px;
     display: grid;
-    text-align: center;
-    margin-right: 60px;
+    margin-right: 20px;
     font-size: 15px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
 }
 
 #iniciarsesion{
@@ -136,18 +142,14 @@ h1{
     border-color: #00000070;
     height: 25px;
     box-shadow: 0 4px 6px rgba(0, 0, 0.3, 0.3);
-    margin-bottom: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
 #checkbox{
-    margin-right: 190px;
-    margin-top: -12px;
+    margin-top: 3px;
     font-size: 12px;
     accent-color:#947643;
-   margin-bottom: 25px;
-   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
 }
 
 footer{
@@ -155,10 +157,8 @@ footer{
     height: 90px;
     background: rgb(109,92,62);
     background: linear-gradient(90deg, rgba(109,92,62,1) 25%, rgba(211,177,119,1) 100%);
-}
-
-.soporte{
-    margin-left: 850px;
+    width: 100vw;
+    display: grid;
 }
 
 button{
@@ -177,4 +177,51 @@ button:hover{
     background-color: #947643;
     color: #ffffff;
 }
+
+/* Laptops (1024px a 1440px) */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    #logo1{
+        width: 160px;
+        height: 160px;
+        margin-left: 20px;
+    }
+
+    .mensaje {
+        width: 450px;
+        margin-left: 270px;
+    }
+
+    .formulario {
+        margin-left: 200px;
+        min-width: 370px;
+    }
+
+    .soporte {
+        margin-left: 810px;
+    }
+}
+
+/* Desktop Computers (1441px y above) */
+@media screen and (min-width: 1441px) {
+    #logo1{
+        width: 160px;
+        height: 160px;
+        margin-left: 20px;
+    }
+
+    .mensaje {
+        width: 600px;
+        margin-left: 150px;
+    }
+
+    .formulario {
+        margin-left: 250px;
+        min-width: 400px;
+    }
+
+    .soporte {
+        margin-left: 850px;
+    }
+}
+
 
