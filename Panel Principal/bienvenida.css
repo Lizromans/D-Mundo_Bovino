@@ -28,6 +28,12 @@ header{
     margin-top: 7px;
 }
 
+#soporte{
+    margin-left: 790px;
+    margin-top: 25px;
+    
+}
+
 main{
     grid-area: main;
 }
@@ -88,10 +94,6 @@ footer{
     height: 100px;
 }
 
-.soporte{
-    margin-left: 800px;
-    
-}
 
 button{
     background-color: #D3B177;
@@ -133,9 +135,10 @@ button:hover{
         margin: 550px;
     }
     
-    .soporte {
-        margin-left: 810px;
-    }
+    #soporte {
+        margin-left: 680px;
+       
+    } 
 }
 
 /* Desktop Computers (1441px and above) */
