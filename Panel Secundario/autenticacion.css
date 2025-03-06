@@ -16,7 +16,8 @@ body{
 header{
     background: rgb(211,177,119);
     background: linear-gradient(90deg, rgba(211,177,119,1) 25%, rgba(109,92,62,1) 100%); 
-    height: 100px;  
+    height: 100px; 
+    display: flex; 
 }
 
 #logo1{
@@ -25,6 +26,11 @@ header{
     margin-left: 20px; /* Espaciado desde el borde izquierdo */
     border-radius: 100px;
     margin-top: 7px;
+}
+
+#soporte{
+    margin-left: 790px;
+    margin-top: 10px;
 }
 
 main{
@@ -87,8 +93,8 @@ h1{
     box-shadow: 0 4px 6px rgba(0, 0, 0.3, 0.3);
     border-radius: 30px; 
     display: flex;
-    height: 410px;
-    width: 380px;
+    height: 430px;
+    width: 400px;
     margin: 600px;
     z-index: -5;
     position: absolute;
@@ -101,10 +107,6 @@ footer{
     background: linear-gradient(90deg, rgba(109,92,62,1) 25%, rgba(211,177,119,1) 100%);
     width: 100vw;
     display: grid;
-}
-
-.soporte{
-    margin-left: 850px;
 }
 
 button{
@@ -141,8 +143,8 @@ button:hover{
         margin-right: 150px;
     }
 
-    .soporte {
-        margin-left: 850px;
+    #soporte {
+        margin-left: 680px;
     }
 }
 
@@ -155,16 +157,21 @@ button:hover{
     }
 
     .mensaje {
+        margin-top: 230px;
         width: 500px;
-        margin-left: 90px;
+        margin-left: 450px;
     }
 
     .autenticacion {
         margin-right: 140px;
     }
 
-    .soporte {
-        margin-left: 850px;
+    #soporte {
+        margin-left: 1200px;
+    }
+
+    footer{
+        margin-top: 240px;
     }
 }
 

@@ -30,7 +30,7 @@ header{
 
 #soporte{
     margin-left: 790px;
-    margin-top: 25px;
+    margin-top: 30px;
     
 }
 
@@ -142,15 +142,17 @@ button:hover{
 }
 
 /* Desktop Computers (1441px and above) */
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1500px) {
     #logo1{
         width: 140px;
         height: 140px;
+        margin-left: 20px;
     }
 
     .panelprincipal {
+        margin-top: 230px;
         width: 500px;
-        margin-left: 150px;
+        margin-left: 400px;
     }
     
     #logo2 {
@@ -164,7 +166,11 @@ button:hover{
         margin: 600px;
     }
     
-    .soporte {
-        margin-left: 850px;
+    #soporte {
+        margin-left: 1250px;
+    }
+    
+    footer{
+        margin-top: 230px;
     }
 }

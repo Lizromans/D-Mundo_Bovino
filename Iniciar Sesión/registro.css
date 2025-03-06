@@ -192,8 +192,8 @@ button:hover{
     }
 }
 
-/* Desktop Computers (1441px y above) */
-@media screen and (min-width: 1441px) {
+/* Desktop Computers (1600px y above) */
+@media screen and (min-width: 1500px) {
     #logo1{
         width: 160px;
         height: 160px;
@@ -201,17 +201,24 @@ button:hover{
     }
 
     .mensaje {
-        width: 600px;
-        margin-left: 150px;
+        margin-top: 185px;
+        width: 500px;
+        margin-left: 400px;
     }
 
     .formulario {
-        margin-left: 250px;
+        margin-left: 300px;
         min-width: 400px;
     }
 
     .soporte {
-        margin-left: 850px;
+        margin-left: 1400px;
     }
+
+    footer{
+        margin-top: 230px;
+    }
+
 }
+
 
