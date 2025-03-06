@@ -80,11 +80,11 @@ h1{
 
 footer{
     grid-area: footer;
-    height: 90px;
     background: rgb(109,92,62);
     background: linear-gradient(90deg, rgba(109,92,62,1) 25%, rgba(211,177,119,1) 100%);
     width: 100vw;
     display: grid;
+    height: 100px;
 }
 
 .soporte{
@@ -133,7 +133,7 @@ button:hover{
     }
     
     .soporte {
-        margin-left: 800px;
+        margin-left: 810px;
     }
 }
 
