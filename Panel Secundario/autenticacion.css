@@ -76,12 +76,27 @@ h1{
     margin-top: 27px;
     color: #000000;
     cursor: pointer;
+    
 }
 
 #inicio:hover{
     background-color: #947643;
     color: #ffffff;
 }
+
+#inicio a{
+    text-decoration: none ;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+#inicio a:hover{
+    background-color: #947643;
+    color: #ffffff;
+}
+
+
 
 #img2{
     box-shadow: 0 4px 6px rgba(0, 0, 0.3, 0.3);
