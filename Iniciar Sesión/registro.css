@@ -74,7 +74,6 @@ h1{
     height: 39px;
     width: 170px;
     border-radius: 20px;
-    border-color: #0e0b064b;
     box-shadow: 0 4px 6px rgba(0, 0, 0.3, 0.3);
     margin-top: 27px;
     color: #ffffff;
@@ -121,17 +120,20 @@ h1{
     font-size: 15px;
 }
 
-#registrarse{
+/* Estilos para el botón tipo submit */
+input[type="submit"] {
     background-color: #D3B177;
     border-radius: 20px;
     height: 27px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0.3, 0.3);
-    border-color:#947643;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-color: #947643;
     cursor: pointer;
     margin-top: 10px;
+    width: 320px;
+    margin-left: 25px;
 }
 
-#registrarse:hover{
+input[type="submit"]:hover{
     background-color: #947643;
     color: #ffffff;
 }
