@@ -102,11 +102,6 @@ h1{
     border-radius: 30px;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 10%;
-}
-
 .carousel-indicators {
     margin-bottom: 1rem;
 }
