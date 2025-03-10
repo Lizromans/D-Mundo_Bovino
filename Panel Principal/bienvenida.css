@@ -74,7 +74,8 @@ h1{
     cursor: pointer;
 }
 
-#img1{
+/* Estilos para el carrusel */
+#carouselGanadero {
     box-shadow: 0 4px 6px rgba(0, 0, 0.3, 0.3);
     border-radius: 30px; 
     display: flex;
@@ -83,6 +84,31 @@ h1{
     margin: 600px;
     z-index: -1;
     position: absolute;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    border-radius: 30px;
+    height: 100%;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
+}
+
+.carousel-indicators {
+    margin-bottom: 1rem;
 }
 
 footer{
@@ -129,7 +155,7 @@ button:hover{
         height: 120px;
     }
     
-    #img1 {
+    #carouselGanadero {
         width: 400px;
         height: 350px;
         margin: 550px;
@@ -159,7 +185,7 @@ button:hover{
         height: 130px;
     }
     
-    #img1 {
+    #carouselGanadero {
         width: 450px;
         height: 400px;
         margin: 600px;
